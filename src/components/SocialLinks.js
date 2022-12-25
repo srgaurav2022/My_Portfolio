@@ -1,7 +1,8 @@
-    import React from 'react'
+import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import pdf from '../assets/portfolio/Gaurav_Resume.pdf'
 
 
 const SocialLinks = () => {
@@ -42,7 +43,7 @@ const SocialLinks = () => {
                     Resume <><BsFillPersonLinesFill size={30} /></>
                 </>
             ),
-            href: 'pdf',
+            href: pdf,
             style: "rounded-br-md",
             download: true
         },
@@ -66,7 +67,7 @@ const SocialLinks = () => {
                                 download={download}
                                 className='flex justify-between items-center w-full text-white'
                                 target='_blank'
-                                rel="noreferrer"                                                                                
+                                rel="noreferrer"
                             >
                                 {child}
                             </a>
