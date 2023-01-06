@@ -82,7 +82,7 @@ const Home = () => {
                 <li
                   key={id}
                   className={
-                    "flex justify-between items-center h-16 w-20  sm:w-24 m-2 rounded-xl cursor-pointer bg-gray-800 duration-300 hover:scale-105" +
+                    "flex justify-center items-center h-16 w-20  sm:w-24 m-1 rounded-xl cursor-pointer bg-gray-800 duration-300 hover:scale-105" +
                     " " +
                     style
                   }

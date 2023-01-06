@@ -1,23 +1,23 @@
 import React from "react";
 import image1 from "../assets/portfolio/desktop-design.jpg";
-import image2 from "../assets/portfolio/imgage2.jpg";
-import image3 from "../assets/portfolio/image3.jpg";
-import image4 from "../assets/portfolio/image4.jpg";
-import image5 from "../assets/portfolio/image5.jpg";
-import image6 from "../assets/portfolio/image6.png";
+import image2 from "../assets/portfolio/developerFood.png";
+// import image3 from "../assets/portfolio/image3.jpg";
+// import image4 from "../assets/portfolio/image4.jpg";
+// import image5 from "../assets/portfolio/image5.jpg";
+// import image6 from "../assets/portfolio/image6.png";
 
 const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
       src: image1,
-      http: "",
+      href: "https://shimmering-torrone-37a354.netlify.app/",
     },
-    // {
-    //   id: 2,
-    //   src: image2,
-    //   http: "",
-    // },
+    {
+      id: 2,
+      src: image2,
+      http: "https://joyful-cuchufli-a70602.netlify.app/",
+    },
     // {
     //   id: 3,
     //   src: image3,
@@ -59,7 +59,7 @@ const Portfolio = () => {
               key={id}
               className="shadow-md relative shadow-gray-600 rounded-lg"
             >
-              <a href={href} _blank>
+              <a href={href} target="_blank" rel="noreferrer">
                 <img
                   src={src}
                   alt="image1"
