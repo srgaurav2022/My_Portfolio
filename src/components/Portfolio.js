@@ -1,6 +1,6 @@
 import React from "react";
-import image1 from "../assets/portfolio/image1.jpg";
-import image2 from "../assets/portfolio/image2.jpg";
+import image1 from "../assets/portfolio/desktop-design.jpg";
+import image2 from "../assets/portfolio/imgage2.jpg";
 import image3 from "../assets/portfolio/image3.jpg";
 import image4 from "../assets/portfolio/image4.jpg";
 import image5 from "../assets/portfolio/image5.jpg";
@@ -11,27 +11,33 @@ const Portfolio = () => {
     {
       id: 1,
       src: image1,
+      http: "",
     },
-    {
-      id: 2,
-      src: image2,
-    },
-    {
-      id: 3,
-      src: image3,
-    },
-    {
-      id: 4,
-      src: image4,
-    },
-    {
-      id: 5,
-      src: image5,
-    },
-    {
-      id: 6,
-      src: image6,
-    },
+    // {
+    //   id: 2,
+    //   src: image2,
+    //   http: "",
+    // },
+    // {
+    //   id: 3,
+    //   src: image3,
+    //   http: "",
+    // },
+    // {
+    //   id: 4,
+    //   src: image4,
+    //   http: "",
+    // },
+    // {
+    //   id: 5,
+    //   src: image5,
+    //   http: "",
+    // },
+    // {
+    //   id: 6,
+    //   src: image6,
+    //   http: "",
+    // },
   ];
 
   return (
@@ -48,19 +54,27 @@ const Portfolio = () => {
         </div>
 
         <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolio.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt="image1"
-                className="rounded-md duration-200 hover:scale-105 cursor-pointer"
-              />
-              <div className="flex justify-around items-center my-4">
+          {portfolio.map(({ id, src, href }) => (
+            <div
+              key={id}
+              className="shadow-md relative shadow-gray-600 rounded-lg"
+            >
+              <a href={href} _blank>
+                <img
+                  src={src}
+                  alt="image1"
+                  className="rounded-md duration-200 hover:scale-105 cursor-pointer"
+                />
+                {/* <div className="absolute top-0 left-0 flex justify-center items-center text-white z-10">
+                  <p>Check out</p>
+                </div> */}
+              </a>
+              {/* <div className="flex justify-around items-center my-4">
                 <button className="duration-200 bord hover:scale-105">
                   Demo
                 </button>
                 <button className="duration-200 hover:scale-105">Code</button>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
