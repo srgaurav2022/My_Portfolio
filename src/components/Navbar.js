@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center w-full h-20 bg-black text-white px-10 fixed z-10">
-      <div className="h-12">
+      <div className="h-12 px-4">
         <img src={HeroImage} className="h-full rounded-full" alt="" />
       </div>
 
@@ -51,7 +51,7 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className=" md:hidden cursor-pointer pr-4 z-20 text-gray-400"
+        className=" md:hidden cursor-pointer pr-4 z-20 text-gray-400 hover:scale-110 duration-300"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
         }`}
       >
         {links.map(({ id, link }) => (
-          <li key={id} className="px-4 capitalize cursor-pointer py-6 text-4xl">
+          <li key={id} className="px-4 capitalize cursor-pointer py-6 text-2xl font-semibold hover:border-b-2">
             <Link
               onClick={() => setNav(!nav)}
               to={link}
