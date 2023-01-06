@@ -1,6 +1,6 @@
 import React from "react";
 import image1 from "../assets/portfolio/desktop-design.jpg";
-import image2 from "../assets/portfolio/developerFood.png";
+import image2 from "../assets/portfolio/developersFood.png";
 // import image3 from "../assets/portfolio/image3.jpg";
 // import image4 from "../assets/portfolio/image4.jpg";
 // import image5 from "../assets/portfolio/image5.jpg";
@@ -16,27 +16,27 @@ const Portfolio = () => {
     {
       id: 2,
       src: image2,
-      http: "https://joyful-cuchufli-a70602.netlify.app/",
+      href: "https://joyful-cuchufli-a70602.netlify.app/",
     },
     // {
     //   id: 3,
     //   src: image3,
-    //   http: "",
+    //   href: "",
     // },
     // {
     //   id: 4,
     //   src: image4,
-    //   http: "",
+    //   href: "",
     // },
     // {
     //   id: 5,
     //   src: image5,
-    //   http: "",
+    //   href: "",
     // },
     // {
     //   id: 6,
     //   src: image6,
-    //   http: "",
+    //   href: "",
     // },
   ];
 
@@ -57,13 +57,13 @@ const Portfolio = () => {
           {portfolio.map(({ id, src, href }) => (
             <div
               key={id}
-              className="shadow-md relative shadow-gray-600 rounded-lg"
+              className="shadow-md relative shadow-gray-200 rounded-lg"
             >
               <a href={href} target="_blank" rel="noreferrer">
                 <img
                   src={src}
                   alt="image1"
-                  className="rounded-md duration-200 hover:scale-105 cursor-pointer"
+                  className="rounded-md w-full duration-200 hover:scale-105 cursor-pointer"
                 />
                 {/* <div className="absolute top-0 left-0 flex justify-center items-center text-white z-10">
                   <p>Check out</p>
