@@ -59,7 +59,7 @@ const Navbar = () => {
       {/* {nav && ( */}
       {/* <ul className="flex flex-col justify-center items-center absolute top-0 right-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400 md:hidden "> */}
       <ul
-        className={`flex flex-col justify-start items-start h-full pl-5 pr-10 sm:pl-10 sm:pr-20 py-16  fixed top-0 space-y-10 right-0 z-10 md:hidden  backdrop-blur-lg   text-white  duration-500 transition-all ease-in-out capitalize ${
+        className={`flex flex-col justify-start items-start h-full pl-5 pr-10 sm:pl-10 sm:pr-20 py-16  fixed top-0 space-y-10 right-0 z-10 md:hidden backdrop-blur-lg  text-white  duration-500 transition-all ease-in-out capitalize ${
           nav ? "-translate-x-0" : "translate-x-[100%]"
         }`}
       >

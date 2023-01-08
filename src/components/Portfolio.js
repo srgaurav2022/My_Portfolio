@@ -1,7 +1,7 @@
 import React from "react";
 import image1 from "../assets/portfolio/desktop-design.jpg";
 import image2 from "../assets/portfolio/developersFood.png";
-// import image3 from "../assets/portfolio/image3.jpg";
+import image3 from "../assets/portfolio/easybanking.jpg";
 // import image4 from "../assets/portfolio/image4.jpg";
 // import image5 from "../assets/portfolio/image5.jpg";
 // import image6 from "../assets/portfolio/image6.png";
@@ -18,11 +18,11 @@ const Portfolio = () => {
       src: image2,
       href: "https://joyful-cuchufli-a70602.netlify.app/",
     },
-    // {
-    //   id: 3,
-    //   src: image3,
-    //   href: "",
-    // },
+    {
+      id: 3,
+      src: image3,
+      href: "https://fancy-alpaca-ec5bdc.netlify.app/",
+    },
     // {
     //   id: 4,
     //   src: image4,
