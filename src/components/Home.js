@@ -67,14 +67,16 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center my-5 order-2 md:order-1">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-5xl py-5 font-bold text-white capitalize">
+            My name is gaurav srivastava
+          </h2>
+          <h2 className="text-4xl font-bold text-white">
             I'm a Full Stack Web Developer
           </h2>
-          <p className=" text-gray-500 py-4 max-w-md ">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-            error reprehenderit obcaecati id sunt, iusto incidunt sint ad eos
-            accusantium, soluta minima. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro, consequatur unde.
+          <p className=" text-gray-400 py-4 max-w-md capitalize">
+            I can create responsive website by using React.js and Tailwind-CSS.
+            I completed Bachelor of science with Information Technology from
+            Viva College with cgpa 6.5 in 2020. below is mine socialLink and resume.
           </p>
           <div className="my-2 items-center">
             <ul className="grid justify-center items-center grid-cols-2 sm:grid-cols-4">

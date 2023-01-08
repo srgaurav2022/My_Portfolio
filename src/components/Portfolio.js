@@ -57,7 +57,7 @@ const Portfolio = () => {
           {portfolio.map(({ id, src, href }) => (
             <div
               key={id}
-              className="shadow-md relative shadow-gray-200 rounded-lg"
+              className="shadow-sm relative shadow-gray-200 rounded-lg"
             >
               <a href={href} target="_blank" rel="noreferrer">
                 <img
