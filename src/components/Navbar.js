@@ -42,7 +42,6 @@ const Navbar = () => {
             className="px-4 cursor-pointer text-gray-400 capitalize hover:scale-110 duration-200"
           >
             <Link to={link} smooth duration={500}>
-              {" "}
               {link}
             </Link>
           </li>
@@ -64,7 +63,10 @@ const Navbar = () => {
         }`}
       >
         {links.map(({ id, link }) => (
-          <li key={id} className="px-4 capitalize cursor-pointer py-6 text-2xl font-semibold hover:border-b-2">
+          <li
+            key={id}
+            className="px-4 capitalize cursor-pointer py-6 text-2xl font-semibold hover:border-b-2"
+          >
             <Link
               onClick={() => setNav(!nav)}
               to={link}
@@ -72,7 +74,6 @@ const Navbar = () => {
               className="mt-[100px]"
               duration={500}
             >
-              {" "}
               {link}
             </Link>
           </li>

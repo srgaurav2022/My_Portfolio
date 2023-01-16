@@ -74,9 +74,10 @@ const Home = () => {
             I'm a Full Stack Web Developer
           </h2>
           <p className=" text-gray-400 py-4 max-w-md capitalize">
-            I can create responsive website by using React.js and Tailwind-CSS.
-            I completed Bachelor of science with Information Technology from
-            Viva College with cgpa 6.5 in 2020. below is mine socialLink and resume.
+            I can create fully responsive website by using React.JS and
+            Tailwind-CSS. Below is mine socialLinks and resume.
+            {/* I completed Bachelor of science with Information
+            Technology from Viva College with 6.5 CGPA in 2020.  */}
           </p>
           <div className="my-2 items-center">
             <ul className="grid justify-center items-center grid-cols-2 sm:grid-cols-4">

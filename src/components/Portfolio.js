@@ -2,7 +2,7 @@ import React from "react";
 import image1 from "../assets/portfolio/desktop-design.jpg";
 import image2 from "../assets/portfolio/developersFood.png";
 import image3 from "../assets/portfolio/easybanking.jpg";
-// import image4 from "../assets/portfolio/image4.jpg";
+import image4 from "../assets/portfolio/mangeLandingPageMaster.png";
 // import image5 from "../assets/portfolio/image5.jpg";
 // import image6 from "../assets/portfolio/image6.png";
 
@@ -23,11 +23,11 @@ const Portfolio = () => {
       src: image3,
       href: "https://fancy-alpaca-ec5bdc.netlify.app/",
     },
-    // {
-    //   id: 4,
-    //   src: image4,
-    //   href: "",
-    // },
+    {
+      id: 4,
+      src: image4,
+      href: "https://mellow-pavlova-41fdf6.netlify.app/",
+    },
     // {
     //   id: 5,
     //   src: image5,
@@ -57,7 +57,7 @@ const Portfolio = () => {
           {portfolio.map(({ id, src, href }) => (
             <div
               key={id}
-              className="shadow-sm relative shadow-gray-200 rounded-lg"
+              className="shadow-lg relative shadow-gray-600 rounded-lg"
             >
               <a href={href} target="_blank" rel="noreferrer">
                 <img

@@ -18,7 +18,6 @@ const App = () => {
       <Portfolio />
       <Experience />
 
-      {/* <SocialLinks /> */}
     </div>
   );
 };

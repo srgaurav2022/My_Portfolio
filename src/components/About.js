@@ -13,22 +13,19 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique,
-          fugit pariatur! Illo eaque nihil sit suscipit totam porro culpa nulla
-          ipsa? Dolor praesentium similique dolorem, sint suscipit soluta
-          consequuntur, dolorum esse excepturi maiores ut, dolores quam eius
-          neque. Adipisci molestias, officia ex minima facere, sunt assumenda
-          officiis natus eligendi unde asperiores nostrum labore quisquam
-          sapiente!
+          My name is Gaurav Srivastava. I live in Ambawadi Road Nallasopara
+          East. I completed my graduation with B.Sc(IT) in 2020 from Viva
+          College Virar West. I looking for a opratunity to work as a Web
+          Developer. I have completed some Frontend project by using JavaScript,
+          ReactJS, CSS and TailwindCSS. I have the skill to create a fully
+          responsive wep pages by using ReactJS and TailwindCSS.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          odit dolor inventore esse quasi quam vitae expedita sunt distinctio,
-          nobis possimus illum, eligendi voluptate voluptatum magni! Veritatis
-          necessitatibus dolorum sit ipsam mollitia consequatur hic nihil sequi,
-          dolores asperiores, amet ratione dignissimos nam! Fuga tempore ipsam,
-          error fugit est at eligendi voluptate tempora inventore velit tenetur?
+          After creating some projects in Frontend and gaining the confidence in
+          Frontend Web Development. Now I am learning backend Web Development
+          skill i.e. NodeJS, ExpressJS and MongoDB to become a full-fledged MERN
+          Stack Developer.
         </p>
       </div>
     </div>
